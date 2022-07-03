@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const { generateMarkdown } = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
   'What is your project title?',
@@ -82,7 +82,7 @@ function init() {
         message: questions[8],
       },
     ])
-    .then((data) => writeToFile('README.md', markdown.generateMarkdown(data))); // making use of first-class functions: to use a function (i.e. generateMarkdown(data)) as the parameter inside another function.
+    .then((data) => writeToFile('README.md', generateMarkdown(data))); // making use of first-class functions: to use a function (i.e. generateMarkdown(data)) as the parameter inside another function.
 }
 
 init();
