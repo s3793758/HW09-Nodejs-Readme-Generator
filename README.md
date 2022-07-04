@@ -33,6 +33,6 @@ I made this app to learn about `Node.js`, `Inquirer`, and template literals.
 
 ## License
 
-&copy; Leo Wong <mas152q@gmail.com>
+&copy; muahamd sahid <mas152q@gmail.com>
 
 Licensed under the [MIT License](./LICENSE).
