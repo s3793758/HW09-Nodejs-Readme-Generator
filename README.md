@@ -1,43 +1,38 @@
-# tester
+# Portfolio Generator
 
-  ![MIT License](https://img.shields.io/badge/License-MIT-red)
+![Node.js](https://img.shields.io/badge/16.15.0%20LTS-0?label=Node.js&style=for-the-badge&labelColor=white&color=black) ![Inquirer](https://img.shields.io/badge/8.2.4-0?label=Inquirer&style=for-the-badge&labelColor=white&color=black)
 
-  # Description
-  
-  this is a demo
+## Introduction
 
-  # Table of Contents
-  
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+Portfolio Generator is a command-line application that allows the user to input some professional information about themselves in order to generate starter HTML code for a portfolio.
 
-  # Installation
-  
-  nothing
+I made this app to learn about `Node.js`, `Inquirer`, and template literals.
 
-  # Usage
-  
-  nothing
-  
-  # License
-    
-  Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+## Installation
 
-  # Contributing
-  
-  Contributing guidelines: [Code of conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+| Steps                | Details                                                               |
+| -------------------- | --------------------------------------------------------------------- |
+| Install Node.js      | Download it at https://nodejs.org/en/                                 |
+| Clone this repo      | ` git clone git@github.com:s3793758/HW09-Nodejs-Readme-Generator.git` |
+| Install dependencies | ` npm install`                                                        |
 
-  # Tests
-  
-  nothing
+## Usage
 
-  # Questions
-  
-  You can find my GitHub profile at: https://github.com/testing
+| Steps              | Details                     |
+| ------------------ | --------------------------- |
+| Start              | `npm start`                 |
+| Answer the prompts | `What is your name? {name}` |
 
-  If you have any questions, you can contact me by email: test@testing.com.au
+## Video Demo
 
+---
+
+## Credits
+
+- BCS Resources
+
+## License
+
+&copy; Leo Wong <mas152q@gmail.com>
+
+Licensed under the [MIT License](./LICENSE).
