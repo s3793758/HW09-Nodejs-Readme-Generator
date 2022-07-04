@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+// import markdown
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { generateMarkdown } = require('./utils/generateMarkdown');
@@ -23,6 +24,7 @@ function writeToFile(fileName, data) {
 }
 // TODO: Create a function to initialize app
 function init() {
+  // asking "questions" on "message" and stored on "name"
   inquirer
     .prompt([
       {
@@ -82,7 +84,9 @@ function init() {
         message: questions[8],
       },
     ])
-    .then((data) => writeToFile('README.md', generateMarkdown(data))); // making use of first-class functions: to use a function (i.e. generateMarkdown(data)) as the parameter inside another function.
+    .then((data) => writeToFile('README.md', generateMarkdown(data)));
+  // once question is done it will write a file called readme.md with infromation stored
 }
 
 init();
+//the function will run which will trigger the application to start

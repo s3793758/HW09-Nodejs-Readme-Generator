@@ -100,4 +100,5 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = { generateMarkdown }; // right hand side of module.exports requires the use of an object to get module.exports to work correctly, functions do not need their parameters written here.
+module.exports = { generateMarkdown }; 
+// exporting 
