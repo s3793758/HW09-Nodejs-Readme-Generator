@@ -1,38 +1,41 @@
-# Portfolio Generator
+# Node-Readme.md
 
-![Node.js](https://img.shields.io/badge/16.15.0%20LTS-0?label=Node.js&style=for-the-badge&labelColor=white&color=black) ![Inquirer](https://img.shields.io/badge/8.2.4-0?label=Inquirer&style=for-the-badge&labelColor=white&color=black)
+  
 
-## Introduction
+  # Description
+  
+  Simple
 
-Portfolio Generator is a command-line application that allows the user to input some professional information about themselves in order to generate starter HTML code for a portfolio.
+  # Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-I made this app to learn about `Node.js`, `Inquirer`, and template literals.
+  # Installation
+  
+  n/a
 
-## Installation
+  # Usage
+  
+  ![alt gif](nodejsdemo.gif)
+  
+  
 
-| Steps                | Details                                                               |
-| -------------------- | --------------------------------------------------------------------- |
-| Install Node.js      | Download it at https://nodejs.org/en/                                 |
-| Clone this repo      | ` git clone git@github.com:s3793758/HW09-Nodejs-Readme-Generator.git` |
-| Install dependencies | ` npm install`                                                        |
+  # Contributing
+  
+  Contributing guidelines: [Code of conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
-## Usage
+  # Tests
+  
+  n/a
 
-| Steps              | Details                     |
-| ------------------ | --------------------------- |
-| Start              | `npm start`                 |
-| Answer the prompts | `What is your name? {name}` |
+  # Questions
+  
+  You can find my GitHub profile at: https://github.com/brownsugar
 
-## Video Demo
+  If you have any questions, you can contact me by email: mas152q@gmail.com
 
----
-
-## Credits
-
-- BCS Resources
-
-## License
-
-&copy; muahamd sahid <mas152q@gmail.com>
-
-Licensed under the [MIT License](./LICENSE).
